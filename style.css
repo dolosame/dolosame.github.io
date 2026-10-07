@@ -3,18 +3,60 @@ body {
   line-height: 1.33;
   margin: 0 auto;
   max-width: 650px;
-  padding: 1rem;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
+  padding: 2rem 1.33rem;
 }
 
 a {
-  color: unset;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
 }
 
 footer {
+  margin-top: 3rem;
   text-align: right;
 }
+
+.breadcrumbs {
+  display: flex;
+  gap: 4px;
+}
+
+.content {
+  min-height: 500px;
+}
+
+.post {
+  margin: 24px 0;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.blog-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blog-link:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.tags li {
+  color: gray;
+}
+

@@ -4,38 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dolomi's web | About</title>
-    <link rel="stylesheet" type="" href="style.css">
-
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
 
     <nav>
-      <a href="index.html">Home</a>
-       ::
-      <a href="about.html">About</a>
+      <a href="#menu">Menu ↓</a>
     </nav>
 
-    <h2>About me</h2>
-    <p>I'm Dolomi and i have many name i can go by (dolosame, dolomit, ...) but call me dolo for short!</p>
-    <p>I maintain this static web pages (sadly i am poor and is not yet ready for me to host in other than github.io)</p>
+    <header>
+      <code>~/about.html</code>
+      <h1>Section about</h1>
+    </header>
 
-    <h3>I am currently using</h3>
-    <ul>
-      <li>Void Linux</li>
-      <li>Niri</li>
-      <li>Neovim</li>
-      <li>Kitty</li>
-      <li>Chromium</li>
-      <li>Bash</li>
-      <li>Rust</li>
-    </ul>
+    <main class="content">
+      <h2>About me</h2>
+      <p>I'm Dolomi and i have many name i can go by (dolosame, dolomit, ...) but call me dolo for short!</p>
+      <p>I maintain this static web pages (sadly i am poor and is not yet ready for me to host in other than github.io)</p>
 
-    <h2>About this site</h2>
-    <p>This is mainly my own web pages to document my learning (and also every made their own webpage nowaday so why not join in?)</p>
-    <p>Pages mostly talk about what is on my mind so expect rambling or different ideology from me</p>
+      <h3>I am currently using</h3>
+      <ul>
+        <li>Void Linux</li>
+        <li>Niri</li>
+        <li>Neovim</li>
+        <li>Kitty</li>
+        <li>Chromium</li>
+        <li>Bash</li>
+        <li>Rust</li>
+      </ul>
+
+      <h2>About this site</h2>
+      <p>This is mainly my own web pages to document my learning (and also every made their own webpage nowaday so why not join in?)</p>
+      <p>Pages mostly talk about what is on my mind so expect rambling or different ideology from me</p>
+
+    </main>
+
+    <hr>
+
+    <h3>Navigation</h3>
+    <nav id="menu" class="breadcrumbs">
+      <a href="./index.html">Home</a>
+      <span>::</span>
+      <a href="./about.html">About</a>
+      <span>::</span>
+      <a href="./blogs/index.html">Blogs</a>
+    </nav>
 
     <footer>
-      Last updated: 7 Otc 2026
+      <time datetime="2026-10-07">Last updated: 7 Otc 2026</time>
     </footer>
 
   </body>

@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dolomi's web | Index</title>
-    <link rel="stylesheet" type="" href="style.css">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
 
     <nav>
-      <a href="index.html">Home</a>
-       ::
-      <a href="about.html">About</a>
+      <a href="#menu">Menu ↓</a>
     </nav>
 
-    <h1>Welcome to my own little web garden!</h1>
-    <p>I am currently making my own static blog site for learning and jointing down my though</p>
+    <header>
+      <code>~/</code>
+      <h1>Welcome to my own little web garden!</h1>
+      <p>I am currently making my own static blog site for learning and jointing down my though</p>
+    </header>
+
+    <main class="content">
+
+      <h2>My favorite stuff</h2>
+      <ul>
+        <li>Linux (currently using void linux)</li>
+        <li>Touhou and some Japan learning</li>
+        <li>Rust and shell scripts learning</li>
+        <li>Rambling in my own mind</li>
+      </ul>
+
+    </main>
 
     <hr>
 
-    <h2>My favorite stuff:</h2>
-    <ul>
-      <li>Linux (currently using void linux)</li>
-      <li>Touhou and some Japan learning</li>
-      <li>Rust and shell scripts learning</li>
-      <li>Rambling in my own mind</li>
-    </ul>
+    <h3>Navigation</h3>
+    <nav id="menu" class="breadcrumbs">
+      <a href="./index.html">Home</a>
+      <span>::</span>
+      <a href="./about.html">About</a>
+      <span>::</span>
+      <a href="./blogs/index.html">Blogs</a>
+    </nav>
 
     <footer>
-      Last updated: 7 Oct 2026
+       <time datetime="2026-10-07">Last updated: 7 Oct 2026</time>
     </footer>
 
   </body>
